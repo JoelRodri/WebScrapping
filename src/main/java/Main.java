@@ -34,11 +34,15 @@ public class Main {
     List<String> names = new ArrayList<>();
     cajas = driver.findElements(new By.ByClassName("f1-uppercase"));
 
+    int i = 0;
     for (WebElement name : cajas ){
 //      System.out.println(names);
       names.add(name.getText());
       System.out.println(name.getText());
+
     }
+
+
   }
 
 }
