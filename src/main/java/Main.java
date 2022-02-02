@@ -1,12 +1,9 @@
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.firefox.FirefoxBinary;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.firefox.FirefoxOptions;
-import org.openqa.selenium.remote.DesiredCapabilities;
 
-import java.io.File;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -29,20 +26,28 @@ public class Main {
     String title = driver.getTitle();
     System.out.println(title);
 
+    List<Pilotos> piloto = new ArrayList<>();
+    List<String> enlaces = new ArrayList<>();
 
-    List<WebElement> cajas = new ArrayList<>();
-    List<String> names = new ArrayList<>();
-    cajas = driver.findElements(new By.ByClassName("f1-uppercase"));
 
-    int i = 0;
-    for (WebElement name : cajas ){
-//      System.out.println(names);
-      names.add(name.getText());
-      System.out.println(name.getText());
+    List<WebElement> buscaUrl = new ArrayList<>();
+    buscaUrl = driver.findElements(new By.ByClassName("listing-item--link"));
+    for (WebElement url : buscaUrl ){
+      enlaces.add(url.getAttribute("href"));
+      System.out.println(url.getAttribute("href"));
+    }
+
+    for (String enlace : enlaces){
+      driver.navigate().to(enlace);
+      List<WebElement> nombre = buscaUrl = driver.findElements(new By.ByClassName("driver-name"));
+      List<WebElement> numero = buscaUrl = driver.findElements(new By.ByClassName("driver-number"));
+      List<WebElement> datos = buscaUrl = driver.findElements(new By.ByClassName("listing-item--link"));
+
+      nombre.add()
 
     }
 
 
-  }
 
+  }
 }
