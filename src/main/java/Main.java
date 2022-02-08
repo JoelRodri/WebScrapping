@@ -97,5 +97,7 @@ public class Main {
 
     Csv csv = new Csv(pilotosList);
 
+    Xml xml = new Xml(pilotosList);
+
   }
 }
