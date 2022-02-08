@@ -2,6 +2,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.firefox.FirefoxOptions;
 
@@ -15,13 +16,13 @@ public class Main {
     System.out.println(System.getenv("HOME"));
   //  System.out.println(System.getenv(""));
 
-    System.setProperty("webdriver.gecko.driver", "src/main/resources/geckodriver");
+    System.setProperty("webdriver.chrome.driver", "src/main/resources/chromedriver.exe");
    // File pathBinary = new File("src/main/resources/firefox");
   //  FirefoxBinary firefoxBinary = new FirefoxBinary(pathBinary);
    // DesiredCapabilities desired = new DesiredCapabilities();
-    FirefoxOptions options = new FirefoxOptions();
+    ChromeOptions options = new ChromeOptions();
    // desired.setCapability(FirefoxOptions.FIREFOX_OPTIONS, options.setBinary(firefoxBinary));
-    WebDriver driver = new FirefoxDriver(options);
+    WebDriver driver = new ChromeDriver(options);
     driver.get("https://www.formula1.com/en/drivers.html");
 
     String title = driver.getTitle();
@@ -38,14 +39,14 @@ public class Main {
       System.out.println(url.getAttribute("href"));
     }
 
-
+    List<Pilotos> pilotosList = new ArrayList<>();
     WebElement nombre, numero;
-    int contador = 0;
     for (String enlace : enlaces){
       driver.navigate().to(enlace);
       nombre = driver.findElement(new By.ByClassName("driver-name"));
       numero = driver.findElement(new By.ByClassName("driver-number"));
-      List<WebElement> datos = driver.findElements(new By.ByClassName("listing-item--link"));
+      List<WebElement> datos = driver.findElements(new By.ByClassName("stat-value"));
+      int contador = 0;
 
 //      nombre.add()
       Pilotos piloto = new Pilotos();
@@ -90,9 +91,11 @@ public class Main {
         System.out.println(dato.getText());
         contador++;
       }
+      pilotosList.add(piloto);
     }
 
 
+    Csv csv = new Csv(pilotosList);
 
   }
 }

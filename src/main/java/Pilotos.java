@@ -62,13 +62,10 @@ public class Pilotos {
         this.nacionalidad = nacionalidad;
     }
 
-    public String getNombre() {
-        return nombre;
-    }
 
-    public String getNumero() {
-        return numero;
-    }
+    public String getNombre() {return nombre;}
+
+    public String getNumero() {return numero;}
 
     public String getEquipo() {
         return equipo;
