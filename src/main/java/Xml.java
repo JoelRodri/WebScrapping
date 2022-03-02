@@ -6,6 +6,9 @@ import java.io.FileReader;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * Esta clase crea el archivo xml
+ */
 public class Xml {
     File file = new File("PilotosF1.xml");
     DataArray datas = new DataArray();

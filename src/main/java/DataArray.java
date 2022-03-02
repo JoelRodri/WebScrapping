@@ -4,6 +4,9 @@ import jakarta.xml.bind.annotation.XmlRootElement;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * Esta clase sirve para guardar en una lista todos los objetos data
+ */
 @XmlRootElement(name = "Pilotos")
 public class DataArray {
     List<Data> datos = new ArrayList<>();

@@ -1,6 +1,9 @@
 import jakarta.xml.bind.annotation.XmlElement;
 import jakarta.xml.bind.annotation.XmlRootElement;
 
+/**
+ * Esta es la clase en la que se guardan todos los datos de los pilotos de forma provisional para guardarlos en los archivos
+ */
 @XmlRootElement(name = "Piloto")
 public class Data {
     String nombre;
@@ -19,6 +22,21 @@ public class Data {
     public Data() {
     }
 
+    /**
+     * Este constructor nos sirve para meter la informacion de los pilotos
+     * @param nombre
+     * @param numero
+     * @param equipo
+     * @param pais
+     * @param podiums
+     * @param puntos
+     * @param gpComp
+     * @param titulos
+     * @param mejorPos
+     * @param mejorClas
+     * @param nacimiento
+     * @param nacionalidad
+     */
     public Data(String nombre, String numero, String equipo, String pais, String podiums, String puntos, String gpComp, String titulos, String mejorPos, String mejorClas, String nacimiento, String nacionalidad) {
         this.nombre = nombre;
         this.numero = numero;
@@ -34,6 +52,9 @@ public class Data {
         this.nacionalidad = nacionalidad;
     }
 
+    /**
+     * Aqui tenemos todos los setters
+     */
     @XmlElement(name = "Nombre")
     public void setNombre(String nombre) {
         this.nombre = nombre;
@@ -94,7 +115,9 @@ public class Data {
         this.nacionalidad = nacionalidad;
     }
 
-
+    /**
+     *Aqui tenemos todos los getters
+     */
     public String getNombre() {return nombre;}
 
     public String getNumero() {return numero;}

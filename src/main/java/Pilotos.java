@@ -1,5 +1,8 @@
 import java.util.List;
 
+/**
+ * Esta clase guarda todos los datos de cada piloto de forma provisional, hasta que se almacena en la clase data
+ */
 public class Pilotos {
     String nombre;
     String numero;
