@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Pilotos>
+    <Piloto>
+        <Equipo>Mercedes</Equipo>
+        <GP_Completados>288</GP_Completados>
+        <Mejor_Classificación>1</Mejor_Classificación>
+        <Mejor_Posición>1 (x103)</Mejor_Posición>
+        <Nacimiento>07/01/1985</Nacimiento>
+        <Nacionalidad>Stevenage, England</Nacionalidad>
+        <Nombre>Lewis Hamilton</Nombre>
+        <Numero>44</Numero>
+        <Pais>United Kingdom</Pais>
+        <Podiums>182</Podiums>
+        <Puntos>4165.5</Puntos>
+        <Titulos>7</Titulos>
+    </Piloto>
+    <Piloto>
+        <Equipo>Mercedes</Equipo>
+        <GP_Completados>60</GP_Completados>
+        <Mejor_Classificación>2</Mejor_Classificación>
+        <Mejor_Posición>2 (x1)</Mejor_Posición>
+        <Nacimiento>15/02/1998</Nacimiento>
+        <Nacionalidad>King's Lynn, England</Nacionalidad>
+        <Nombre>George Russell</Nombre>
+        <Numero>63</Numero>
+        <Pais>United Kingdom</Pais>
+        <Podiums>1</Podiums>
+        <Puntos>19</Puntos>
+        <Titulos>N/A</Titulos>
+    </Piloto>
+    <Piloto>
+        <Equipo>Red Bull Racing</Equipo>
+        <GP_Completados>141</GP_Completados>
+        <Mejor_Classificación>1</Mejor_Classificación>
+        <Mejor_Posición>1 (x20)</Mejor_Posición>
+        <Nacimiento>30/09/1997</Nacimiento>
+        <Nacionalidad>Hasselt, Belgium</Nacionalidad>
+        <Nombre>Max Verstappen</Nombre>
+        <Numero>1</Numero>
+        <Pais>Netherlands</Pais>
+        <Podiums>60</Podiums>
+        <Puntos>1557.5</Puntos>
+        <Titulos>1</Titulos>
+    </Piloto>
+    <Piloto>
+        <Equipo>Red Bull Racing</Equipo>
+        <GP_Completados>214</GP_Completados>
+        <Mejor_Classificación>2</Mejor_Classificación>
+        <Mejor_Posición>1 (x2)</Mejor_Posición>
+        <Nacimiento>26/01/1990</Nacimiento>
+        <Nacionalidad>Guadalajara, Mexico</Nacionalidad>
+        <Nombre>Sergio Perez</Nombre>
+        <Numero>11</Numero>
+        <Pais>Mexico</Pais>
+        <Podiums>15</Podiums>
+        <Puntos>896</Puntos>
+        <Titulos>N/A</Titulos>
+    </Piloto>
+    <Piloto>
+        <Equipo>Ferrari</Equipo>
+        <GP_Completados>81</GP_Completados>
+        <Mejor_Classificación>1</Mejor_Classificación>
+        <Mejor_Posición>1 (x2)</Mejor_Posición>
+        <Nacimiento>16/10/1997</Nacimiento>
+        <Nacionalidad>Monte Carlo, Monaco</Nacionalidad>
+        <Nombre>Charles Leclerc</Nombre>
+        <Numero>16</Numero>
+        <Pais>Monaco</Pais>
+        <Podiums>13</Podiums>
+        <Puntos>560</Puntos>
+        <Titulos>N/A</Titulos>
+    </Piloto>
+    <Piloto>
+        <Equipo>Ferrari</Equipo>
+        <GP_Completados>141</GP_Completados>
+        <Mejor_Classificación>2</Mejor_Classificación>
+        <Mejor_Posición>2 (x2)</Mejor_Posición>
+        <Nacimiento>01/09/1994</Nacimiento>
+        <Nacionalidad>Madrid, Spain</Nacionalidad>
+        <Nombre>Carlos Sainz</Nombre>
+        <Numero>55</Numero>
+        <Pais>Spain</Pais>
+        <Podiums>6</Podiums>
+        <Puntos>536.5</Puntos>
+        <Titulos>N/A</Titulos>
+    </Piloto>
+    <Piloto>
+        <Equipo>McLaren</Equipo>
+        <GP_Completados>60</GP_Completados>
+        <Mejor_Classificación>1</Mejor_Classificación>
+        <Mejor_Posición>2 (x1)</Mejor_Posición>
+        <Nacimiento>13/11/1999</Nacimiento>
+        <Nacionalidad>Bristol, England</Nacionalidad>
+        <Nombre>Lando Norris</Nombre>
+        <Numero>4</Numero>
+        <Pais>United Kingdom</Pais>
+        <Podiums>5</Podiums>
+        <Puntos>306</Puntos>
+        <Titulos>N/A</Titulos>
+    </Piloto>
+    <Piloto>
+        <Equipo>McLaren</Equipo>
+        <GP_Completados>210</GP_Completados>
+        <Mejor_Classificación>1</Mejor_Classificación>
+        <Mejor_Posición>1 (x8)</Mejor_Posición>
+        <Nacimiento>01/07/1989</Nacimiento>
+        <Nacionalidad>Perth, Australia</Nacionalidad>
+        <Nombre>Daniel Ricciardo</Nombre>
+        <Numero>3</Numero>
+        <Pais>Australia</Pais>
+        <Podiums>32</Podiums>
+        <Puntos>1274</Puntos>
+        <Titulos>N/A</Titulos>
+    </Piloto>
+    <Piloto>
+        <Equipo>Alpine</Equipo>
+        <GP_Completados>89</GP_Completados>
+        <Mejor_Classificación>3</Mejor_Classificación>
+        <Mejor_Posición>1 (x1)</Mejor_Posición>
+        <Nacimiento>17/09/1996</Nacimiento>
+        <Nacionalidad>Évreux, Normandy</Nacionalidad>
+        <Nombre>Esteban Ocon</Nombre>
+        <Numero>31</Numero>
+        <Pais>France</Pais>
+        <Podiums>2</Podiums>
+        <Puntos>272</Puntos>
+        <Titulos>N/A</Titulos>
+    </Piloto>
+    <Piloto>
+        <Equipo>Alpine</Equipo>
+        <GP_Completados>336</GP_Completados>
+        <Mejor_Classificación>1</Mejor_Classificación>
+        <Mejor_Posición>1 (x32)</Mejor_Posición>
+        <Nacimiento>29/07/1981</Nacimiento>
+        <Nacionalidad>Oviedo, Spain</Nacionalidad>
+        <Nombre>Fernando Alonso</Nombre>
+        <Numero>14</Numero>
+        <Pais>Spain</Pais>
+        <Podiums>98</Podiums>
+        <Puntos>1980</Puntos>
+        <Titulos>2</Titulos>
+    </Piloto>
+    <Piloto>
+        <Equipo>AlphaTauri</Equipo>
+        <GP_Completados>86</GP_Completados>
+        <Mejor_Classificación>2</Mejor_Classificación>
+        <Mejor_Posición>1 (x1)</Mejor_Posición>
+        <Nacimiento>07/02/1996</Nacimiento>
+        <Nacionalidad>Rouen, France</Nacionalidad>
+        <Nombre>Pierre Gasly</Nombre>
+        <Numero>10</Numero>
+        <Pais>France</Pais>
+        <Podiums>3</Podiums>
+        <Puntos>309</Puntos>
+        <Titulos>N/A</Titulos>
+    </Piloto>
+    <Piloto>
+        <Equipo>AlphaTauri</Equipo>
+        <GP_Completados>22</GP_Completados>
+        <Mejor_Classificación>7</Mejor_Classificación>
+        <Mejor_Posición>4 (x1)</Mejor_Posición>
+        <Nacimiento>11/05/2000</Nacimiento>
+        <Nacionalidad>Sagamihara, Japan</Nacionalidad>
+        <Nombre>Yuki Tsunoda</Nombre>
+        <Numero>22</Numero>
+        <Pais>Japan</Pais>
+        <Podiums>N/A</Podiums>
+        <Puntos>32</Puntos>
+        <Titulos>N/A</Titulos>
+    </Piloto>
+    <Piloto>
+        <Equipo>Aston Martin</Equipo>
+        <GP_Completados>100</GP_Completados>
+        <Mejor_Classificación>1</Mejor_Classificación>
+        <Mejor_Posición>3 (x3)</Mejor_Posición>
+        <Nacimiento>29/10/1998</Nacimiento>
+        <Nacionalidad>Montreal, Canada</Nacionalidad>
+        <Nombre>Lance Stroll</Nombre>
+        <Numero>18</Numero>
+        <Pais>Canada</Pais>
+        <Podiums>3</Podiums>
+        <Puntos>176</Puntos>
+        <Titulos>N/A</Titulos>
+    </Piloto>
+    <Piloto>
+        <Equipo>Aston Martin</Equipo>
+        <GP_Completados>280</GP_Completados>
+        <Mejor_Classificación>1</Mejor_Classificación>
+        <Mejor_Posición>1 (x53)</Mejor_Posición>
+        <Nacimiento>03/07/1987</Nacimiento>
+        <Nacionalidad>Heppenheim, Germany</Nacionalidad>
+        <Nombre>Sebastian Vettel</Nombre>
+        <Numero>5</Numero>
+        <Pais>Germany</Pais>
+        <Podiums>122</Podiums>
+        <Puntos>3061</Puntos>
+        <Titulos>4</Titulos>
+    </Piloto>
+    <Piloto>
+        <Equipo>Williams</Equipo>
+        <GP_Completados>38</GP_Completados>
+        <Mejor_Classificación>4</Mejor_Classificación>
+        <Mejor_Posición>3 (x2)</Mejor_Posición>
+        <Nacimiento>23/03/1996</Nacimiento>
+        <Nacionalidad>London, England</Nacionalidad>
+        <Nombre>Alexander Albon</Nombre>
+        <Numero>23</Numero>
+        <Pais>Thailand</Pais>
+        <Podiums>2</Podiums>
+        <Puntos>197</Puntos>
+        <Titulos>N/A</Titulos>
+    </Piloto>
+    <Piloto>
+        <Equipo>Williams</Equipo>
+        <GP_Completados>39</GP_Completados>
+        <Mejor_Classificación>10</Mejor_Classificación>
+        <Mejor_Posición>7 (x1)</Mejor_Posición>
+        <Nacimiento>29/06/1995</Nacimiento>
+        <Nacionalidad>Montreal, Canada</Nacionalidad>
+        <Nombre>Nicholas Latifi</Nombre>
+        <Numero>6</Numero>
+        <Pais>Canada</Pais>
+        <Podiums>N/A</Podiums>
+        <Puntos>7</Puntos>
+        <Titulos>N/A</Titulos>
+    </Piloto>
+    <Piloto>
+        <Equipo>Alfa Romeo</Equipo>
+        <GP_Completados>178</GP_Completados>
+        <Mejor_Classificación>1</Mejor_Classificación>
+        <Mejor_Posición>1 (x10)</Mejor_Posición>
+        <Nacimiento>28/08/1989</Nacimiento>
+        <Nacionalidad>Nastola, Finland</Nacionalidad>
+        <Nombre>Valtteri Bottas</Nombre>
+        <Numero>77</Numero>
+        <Pais>Finland</Pais>
+        <Podiums>67</Podiums>
+        <Puntos>1738</Puntos>
+        <Titulos>N/A</Titulos>
+    </Piloto>
+    <Piloto>
+        <Equipo>Alfa Romeo</Equipo>
+        <GP_Completados>N/A</GP_Completados>
+        <Mejor_Classificación>N/A</Mejor_Classificación>
+        <Mejor_Posición>0 (x0)</Mejor_Posición>
+        <Nacimiento>30/05/1999</Nacimiento>
+        <Nacionalidad>Shanghai, China</Nacionalidad>
+        <Nombre>Guanyu Zhou</Nombre>
+        <Numero>24</Numero>
+        <Pais>China</Pais>
+        <Podiums>N/A</Podiums>
+        <Puntos>0</Puntos>
+        <Titulos>N/A</Titulos>
+    </Piloto>
+    <Piloto>
+        <Equipo>Haas F1 Team</Equipo>
+        <GP_Completados>22</GP_Completados>
+        <Mejor_Classificación>14</Mejor_Classificación>
+        <Mejor_Posición>12 (x1)</Mejor_Posición>
+        <Nacimiento>22/03/1999</Nacimiento>
+        <Nacionalidad>Vufflens-le-Château, Switzerland</Nacionalidad>
+        <Nombre>Mick Schumacher</Nombre>
+        <Numero>47</Numero>
+        <Pais>Germany</Pais>
+        <Podiums>N/A</Podiums>
+        <Puntos>0</Puntos>
+        <Titulos>N/A</Titulos>
+    </Piloto>
+    <Piloto>
+        <Equipo>Haas F1 Team</Equipo>
+        <GP_Completados>21</GP_Completados>
+        <Mejor_Classificación>15</Mejor_Classificación>
+        <Mejor_Posición>14 (x1)</Mejor_Posición>
+        <Nacimiento>02/03/1999</Nacimiento>
+        <Nacionalidad>Moscow, Russia</Nacionalidad>
+        <Nombre>Nikita Mazepin</Nombre>
+        <Numero>9</Numero>
+        <Pais>Russian Automobile Federation</Pais>
+        <Podiums>N/A</Podiums>
+        <Puntos>0</Puntos>
+        <Titulos>N/A</Titulos>
+    </Piloto>
+</Pilotos>
