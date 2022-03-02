@@ -16,6 +16,9 @@ public class Data {
     String nacimiento;
     String nacionalidad;
 
+    public Data() {
+    }
+
     public Data(String nombre, String numero, String equipo, String pais, String podiums, String puntos, String gpComp, String titulos, String mejorPos, String mejorClas, String nacimiento, String nacionalidad) {
         this.nombre = nombre;
         this.numero = numero;
@@ -61,7 +64,7 @@ public class Data {
         this.puntos = puntos;
     }
 
-    @XmlElement(name = "GP Completados")
+    @XmlElement(name = "GP_Completados")
     public void setGpComp(String gpComp) {
         this.gpComp = gpComp;
     }
@@ -71,12 +74,12 @@ public class Data {
         this.titulos = titulos;
     }
 
-    @XmlElement(name = "Mejor Posición")
+    @XmlElement(name = "Mejor_Posición")
     public void setMejorPos(String mejorPos) {
         this.mejorPos = mejorPos;
     }
 
-    @XmlElement(name = "Mejor Classificación")
+    @XmlElement(name = "Mejor_Classificación")
     public void setMejorClas(String mejorClas) {
         this.mejorClas = mejorClas;
     }

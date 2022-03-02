@@ -16,13 +16,14 @@ public class Main {
     System.out.println(System.getenv("HOME"));
   //  System.out.println(System.getenv(""));
 
-    System.setProperty("webdriver.chrome.driver", "src/main/resources/chromedriver.exe");
-   // File pathBinary = new File("src/main/resources/firefox");
-  //  FirefoxBinary firefoxBinary = new FirefoxBinary(pathBinary);
-   // DesiredCapabilities desired = new DesiredCapabilities();
+    /*System.setProperty("webdriver.chrome.driver", "src/main/resources/chromedriver.exe");
     ChromeOptions options = new ChromeOptions();
-   // desired.setCapability(FirefoxOptions.FIREFOX_OPTIONS, options.setBinary(firefoxBinary));
-    WebDriver driver = new ChromeDriver(options);
+    WebDriver driver = new ChromeDriver(options);*/
+
+    System.setProperty("webdriver.gecko.driver", "src/main/resources/geckodriver");
+    FirefoxOptions options = new FirefoxOptions();
+    WebDriver driver = new FirefoxDriver(options);
+
     driver.get("https://www.formula1.com/en/drivers.html");
 
     String title = driver.getTitle();
@@ -95,9 +96,8 @@ public class Main {
     }
 
 
+
     Csv csv = new Csv(pilotosList);
-
     Xml xml = new Xml(pilotosList);
-
   }
 }

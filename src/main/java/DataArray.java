@@ -20,4 +20,7 @@ public class DataArray {
     public void addDatos(Data data){
         this.datos.add(data);
     }
+
+    public DataArray() {
+    }
 }

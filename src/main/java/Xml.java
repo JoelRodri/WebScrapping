@@ -12,7 +12,7 @@ public class Xml {
     Data data;
     JAXBContext jaxbContext;
     Marshaller jaxbMarshaller;
-    public Xml(List<Pilotos> pilotosList) {
+    Xml(List<Pilotos> pilotosList) {
             try {
                 jaxbContext = JAXBContext.newInstance(DataArray.class);
 
